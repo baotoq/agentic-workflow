@@ -1,4 +1,4 @@
-name: agent-skills
+name: agentic-workflow
 version: 1.0.0
 description: Frequently used Azure, .NET, and Karpathy agent skills
 targets:
