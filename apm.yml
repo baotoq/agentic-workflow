@@ -1,0 +1,14 @@
+name: agent-skills
+version: 1.0.0
+description: Frequently used Azure, .NET, and Karpathy agent skills
+targets:
+  - claude
+  - copilot
+
+dependencies:
+  apm:
+    - "microsoft/azure-skills#main"
+    - "dotnet/skills/plugins/dotnet#main"
+    - "dotnet/skills/plugins/dotnet-aspnetcore#main"
+    - "dotnet/skills/plugins/dotnet-test#main"
+    - "multica-ai/andrej-karpathy-skills#main"
