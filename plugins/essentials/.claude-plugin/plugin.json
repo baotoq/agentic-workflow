@@ -1,13 +1,15 @@
 {
   "name": "essentials",
-  "version": "1.0.0",
-  "description": "Installs the plugins I use everywhere: code-review, github and chrome-devtools-mcp",
+  "version": "1.1.0",
+  "description": "Installs the plugins I use everywhere: code-review, github, chrome-devtools-mcp, commit-commands and andrej-karpathy-skills",
   "author": {
     "name": "Bao To"
   },
   "dependencies": [
     "code-review@claude-plugins-official",
     "github@claude-plugins-official",
-    "chrome-devtools-mcp@claude-plugins-official"
+    "chrome-devtools-mcp@claude-plugins-official",
+    "commit-commands@claude-plugins-official",
+    "andrej-karpathy-skills@karpathy-skills"
   ]
 }

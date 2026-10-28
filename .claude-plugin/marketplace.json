@@ -4,12 +4,12 @@
   "owner": {
     "name": "Bao To"
   },
-  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official", "karpathy-skills"],
   "plugins": [
     {
       "name": "essentials",
       "source": "./plugins/essentials",
-      "description": "Installs the plugins I use everywhere: code-review, github and chrome-devtools-mcp"
+      "description": "Installs the plugins I use everywhere: code-review, github, chrome-devtools-mcp, commit-commands and andrej-karpathy-skills"
     }
   ]
 }
