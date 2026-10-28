@@ -1,0 +1,15 @@
+{
+  "name": "baotoq",
+  "description": "Personal Claude Code plugins",
+  "owner": {
+    "name": "Bao To"
+  },
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
+  "plugins": [
+    {
+      "name": "essentials",
+      "source": "./plugins/essentials",
+      "description": "Installs the plugins I use everywhere: code-review, github and chrome-devtools-mcp"
+    }
+  ]
+}
